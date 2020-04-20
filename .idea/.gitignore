@@ -1,0 +1,9 @@
+# Default ignored files
+/workspace.xml
+
+.idea/
+
+misc.xml
+Mockup-UFSCAR.iml
+vcs.xml
+modules.xml
