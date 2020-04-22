@@ -1,1 +1,7 @@
 /* Add here all your css styles (customizations) */
+#html5image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
