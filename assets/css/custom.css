@@ -6,12 +6,19 @@
     width: 50%;
 }
 
+a:focus {
+    color: #72c02c !important;
+}
+
 .navbar-nav .nav-item a:focus {
 	color: #72c02c !important;
 }
 
-li a:focus {
-	color: #72c02c !important;
+.shortcode-html li a:focus {
+    color: #fff !important;
+    background-color: #72c02c;
+    border-radius: 3px;
+    padding: 0px 3px;
 }
 
 .logo-header img{
@@ -56,6 +63,22 @@ li a:focus {
     transition: padding 0.5s;
 }
 
+.link-content a {
+    transition: padding 0.5s;
+}
+
+.link-content article a:focus {
+    color: #fff !important;
+    background-color: #72c02c !important;
+    border-radius: 10px;
+    padding: 5px 10px !important;
+    transition: padding 0.5s;
+}
+
+.list-inline  li .u-pagination-v1-4--active:focus {
+    color: #72c02c !important;
+    background-color: #fff;
+}
 
 footer ul a:focus {
     color: #72c02c !important;
