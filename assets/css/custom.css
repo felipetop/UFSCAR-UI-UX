@@ -10,6 +10,10 @@
 	color: #72c02c !important;
 }
 
+li a:focus {
+	color: #72c02c !important;
+}
+
 .logo-header img{
     padding: 2px;
     border: solid 2px transparent;
@@ -20,8 +24,8 @@
     box-shadow:1px 1px 1px #ccc;
 }
 
-.btn.btn-primary:focus {
-    background-color: #fff;
+.btn:focus {
+    background-color: #03803D;
     color: #72c02c;
     border: solid 1px #72c02c;
     border-radius: 3px;
