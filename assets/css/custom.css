@@ -10,6 +10,13 @@ a:focus {
     color: #72c02c !important;
 }
 
+.custom-check {
+    opacity: 0;
+}
+.custom-check:focus ~ span {
+    border: solid 2px #fff !important;
+    border-radius: 6px;
+}
 .navbar-nav .nav-item a:focus {
 	color: #72c02c !important;
 }
