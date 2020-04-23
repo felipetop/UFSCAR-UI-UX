@@ -1,6 +1,10 @@
 /* Add here all your css styles (customizations) */
-
-
+#html5image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 .navbar-nav .nav-item a:focus {
 	color: #72c02c !important;
