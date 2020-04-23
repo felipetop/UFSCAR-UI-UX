@@ -5,3 +5,54 @@
     margin-right: auto;
     width: 50%;
 }
+
+.navbar-nav .nav-item a:focus {
+	color: #72c02c !important;
+}
+
+.logo-header img{
+    padding: 2px;
+    border: solid 2px transparent;
+}
+
+.logo-header:focus img{
+    border: solid 2px #72c02c;
+    box-shadow:1px 1px 1px #ccc;
+}
+
+.btn.btn-primary:focus {
+    background-color: #fff;
+    color: #72c02c;
+    border: solid 1px #72c02c;
+    border-radius: 3px;
+}
+
+.focus-link-color a:focus {
+    color: #72c02c !important;
+}
+
+.logo-footer img {
+    padding: 2px;
+    border: solid 2px transparent;
+}
+
+.logo-footer:focus img {
+    border: solid 2px #fff;
+}
+
+.color-link:focus {
+    background-color: #fff;
+    border-radius: 60px;
+    padding: 2px 10px;
+    text-decoration: underline;
+    transition: padding 0.5s;
+}
+
+.color-link {
+    transition: padding 0.5s;
+}
+
+
+footer ul a:focus {
+    color: #72c02c !important;
+}
